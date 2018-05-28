@@ -13,7 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "观察者模式", "观察�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{17B638F4-E65F-41B5-B666-B9A27F1A4A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{8D24762C-4942-43ED-A272-FFAE7FEC1299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{8D24762C-4942-43ED-A272-FFAE7FEC1299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "责任链模式", "责任链模式\责任链模式.csproj", "{D7D7644C-8143-4354-85C4-2940CCC97DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式", "命令模式\命令模式.csproj", "{C8DB76E9-8BAE-4A6F-81D4-F17ADBBF2245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{8D24762C-4942-43ED-A272-FFAE7FEC1299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D24762C-4942-43ED-A272-FFAE7FEC1299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D24762C-4942-43ED-A272-FFAE7FEC1299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D7644C-8143-4354-85C4-2940CCC97DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D7644C-8143-4354-85C4-2940CCC97DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D7644C-8143-4354-85C4-2940CCC97DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D7644C-8143-4354-85C4-2940CCC97DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DB76E9-8BAE-4A6F-81D4-F17ADBBF2245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DB76E9-8BAE-4A6F-81D4-F17ADBBF2245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DB76E9-8BAE-4A6F-81D4-F17ADBBF2245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DB76E9-8BAE-4A6F-81D4-F17ADBBF2245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
